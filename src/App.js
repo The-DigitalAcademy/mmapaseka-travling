@@ -13,8 +13,8 @@ function App() {
       <Router>
       <Header />
 
-        {/* <Route exact path='/'>
-         <Showcase /> */}
+        {/* <Route exact path='/'> */}
+         {/* <Showcase /> */}
          {/* <Destinations />  */}
         {/* </Route> */}
 
@@ -32,4 +32,4 @@ function App() {
   );
 }
 
-export default App
+export default App; 

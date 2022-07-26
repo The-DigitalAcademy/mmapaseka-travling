@@ -6,13 +6,13 @@ const Header = () => {
     <>
         <header className='header'>
             <div>
-                <Link to='/'>Home</Link>
+                <Link className='links' to='/'>Home</Link>
             </div>
 
             <nav className='navbar'>
                 <ul>
-                    <Link to='/login'>Login</Link>
-                    <Link to='/signup'>Sign Up</Link>
+                    <Link className='links' to='/login'>Login</Link>
+                    <Link className='links' to='/signup'>Sign Up</Link>
                 </ul>
             </nav>
         </header>
