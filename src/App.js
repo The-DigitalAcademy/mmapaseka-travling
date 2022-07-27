@@ -1,35 +1,28 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Showcase from './components/Showcase';
-import Login from './components/Login';
-import SignUp from './components/SignUp';
-import Footer from './components/Footer';
-
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Header from './components/Header'
+import Showcase from './components/Showcase'
+import Destinations from './components/Destinations'
+import Footer from './components/Footer'
+import Error from './components/Error'
 
 function App() {
   return (
-    <> 
-      <Router>
+    <Router>
       <Header />
 
-        {/* <Route exact path='/'> */}
-         {/* <Showcase /> */}
-         {/* <Destinations />  */}
-        {/* </Route> */}
-
-        {/* <Route  path='/login'>
-          <Login />
+      <Switch>
+        <Route exact path='/'>
+          <Showcase />
+          <Destinations />
         </Route>
-
-        <Route  path='/signup'>
-          <SignUp />
+        <Route path='*'>
+          <Error />
         </Route>
-
-        <Footer /> */}
-      </Router>
-    </>
-  );
+      </Switch>
+      <Footer />
+    </Router>
+  )
 }
 
-export default App; 
+export default App
