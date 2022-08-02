@@ -17,7 +17,7 @@ const Footer = () => {
           <button>Privacy Policy</button>
         </li>
         <li>
-          <button>Giveaway</button>
+          
         </li>
       </ul>
     </footer>
