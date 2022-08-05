@@ -7,7 +7,7 @@ const Showcase = () => {
         <h1>Showcase Travel Agency</h1>
         <p>
           Get to tour the world in style. Select a destination, book your
-          flight, and off you go!
+          flight, and off you go...
         </p>
       </div>
     </section>
