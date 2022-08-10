@@ -10,7 +10,7 @@ const Error = () => {
         justifyContent: 'center'
       }}
     >
-      <h1>Looks like the page you were looking for does not exist</h1>
+      <h1>Book your flight and travel the world!</h1>
     </div>
   )
 }
