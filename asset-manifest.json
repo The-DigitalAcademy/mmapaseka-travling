@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mmapaseka-travling/static/css/main.0853f113.css",
-    "main.js": "/mmapaseka-travling/static/js/main.3b128f84.js",
+    "main.css": "/mmapaseka-travling/static/css/main.e6692fbd.css",
+    "main.js": "/mmapaseka-travling/static/js/main.13d4d1b1.js",
     "static/media/Boats2.avif": "/mmapaseka-travling/static/media/Boats2.8286c6051062908bd168.avif",
     "static/media/Traval.avif": "/mmapaseka-travling/static/media/Traval.d6ac3536e304e72ff8c4.avif",
     "static/media/image-3.jpg": "/mmapaseka-travling/static/media/image-3.ca8941f97f1606e73122.jpg",
     "index.html": "/mmapaseka-travling/index.html",
-    "main.0853f113.css.map": "/mmapaseka-travling/static/css/main.0853f113.css.map",
-    "main.3b128f84.js.map": "/mmapaseka-travling/static/js/main.3b128f84.js.map"
+    "main.e6692fbd.css.map": "/mmapaseka-travling/static/css/main.e6692fbd.css.map",
+    "main.13d4d1b1.js.map": "/mmapaseka-travling/static/js/main.13d4d1b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.0853f113.css",
-    "static/js/main.3b128f84.js"
+    "static/css/main.e6692fbd.css",
+    "static/js/main.13d4d1b1.js"
   ]
 }
