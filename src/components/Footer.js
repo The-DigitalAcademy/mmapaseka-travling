@@ -1,25 +1,20 @@
 import React from 'react'
 
 const Footer = () => {
-  return (
-    <footer className='footer'>
-      <ul>
-        <li>
-          <button>Home</button>
-        </li>
-        <li>
-          <button>Suggestion Box</button>
-        </li>
-      </ul>
 
-      <ul>
-        <li>
-          <button>Privacy Policy</button>
-        </li>
-        <li>
-          
-        </li>
-      </ul>
+    const current = new Date();
+    const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+  
+  return (
+
+    <footer className='footer'>
+
+        <div id='date'>
+     
+     Current date is {date}
+
+     </div>
+
     </footer>
   )
 }

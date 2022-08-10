@@ -20,7 +20,7 @@ const Destinations = () => {
           <img src={Boats2} alt='destination-2' />
           <h3>Seas</h3>
           <p>
-          Many people enjoy travelling by sea. They say it is the most pleasant means of travelling. They mean travelling by an ocean liner, which combines comfort and speed.
+          Many people enjoy travelling by sea. They say it is the most pleasant means of travelling.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const Destinations = () => {
           <img src={image3} alt='destination-3' />
           <h3>Savour Hawaii</h3>
           <p>
-          The world is full of people who love interacting. i get to make friends when i travel to new places and spend quality time with them.
+          The world is full of people who love travels. i get to make friends when i travel to new places and spend quality time with them.
           </p>
         </div>
       </div>
