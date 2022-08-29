@@ -9,11 +9,9 @@ const Footer = () => {
 
     <footer className='footer'>
 
-        <div id='date'>
-     
-     Current date is {date}
+    <div id='date'>
 
-     </div>
+    </div>
 
     </footer>
   )

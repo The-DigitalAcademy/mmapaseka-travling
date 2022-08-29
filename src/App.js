@@ -1,28 +1,26 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Header from './components/Header'
-import Showcase from './components/Showcase'
-import Destinations from './components/Destinations'
-import Footer from './components/Footer'
-import Error from './components/Error'
+import Home from './pages/Home';
+import Login from './pages/Login';
+import SignIn from './pages/SignIn';
+
+import {
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Router>
-      <Header />
+    <div>
+      <Routes>
+        <Route path="/mmapaseka-travling" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signin" element={<SignIn />} />
+        <Route path="*" element={<Navigate to={"/"} replace />} />
+      </Routes>
+    </div>
 
-      <Switch>
-        <Route exact path='/'>
-          <Showcase />
-          <Destinations />
-        </Route>
-        <Route path='*'>
-          <Error />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
-  )
+  );
 }
-
 export default App
