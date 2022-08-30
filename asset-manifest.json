@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mmapaseka-travling/static/css/main.d1febab6.css",
-    "main.js": "/mmapaseka-travling/static/js/main.b7360d8e.js",
+    "main.js": "/mmapaseka-travling/static/js/main.005b6af1.js",
     "static/media/italy.avif": "/mmapaseka-travling/static/media/italy.eb26c676f772da3254c6.avif",
     "static/media/shibuya, japan.avif": "/mmapaseka-travling/static/media/shibuya, japan.aef0f42d6e1ca00553e1.avif",
     "static/media/tarviso.avif": "/mmapaseka-travling/static/media/tarviso.90a37e25a3fec7a098a5.avif",
@@ -10,10 +10,10 @@
     "static/media/paris.jpeg": "/mmapaseka-travling/static/media/paris.14675f2ec4ad82968152.jpeg",
     "index.html": "/mmapaseka-travling/index.html",
     "main.d1febab6.css.map": "/mmapaseka-travling/static/css/main.d1febab6.css.map",
-    "main.b7360d8e.js.map": "/mmapaseka-travling/static/js/main.b7360d8e.js.map"
+    "main.005b6af1.js.map": "/mmapaseka-travling/static/js/main.005b6af1.js.map"
   },
   "entrypoints": [
     "static/css/main.d1febab6.css",
-    "static/js/main.b7360d8e.js"
+    "static/js/main.005b6af1.js"
   ]
 }
