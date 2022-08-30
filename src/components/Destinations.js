@@ -41,15 +41,14 @@ const Destinations = () => {
           <img src={ShibuyaJapan} alt='destination-1' />
           <h3>Shibuya Japan</h3>
           <p>
-          A city is so with beauty, even the least romantic are defenseless against its charms.
-          </p>
+          With so many attractions in Shibuya, you are going to have an incredible time and come back with amazing souvenirs from Japan.          </p>
         </div>
 
         <div>
           <img src={Tarviso} alt='destination-2' />
           <h3>Tarviso</h3>
           <p>
-          Many people enjoy travelling by sea. They say it is the most pleasant means of travelling.
+          On the last few days I experienced some of the other things you can do other than ski.          
           </p>
         </div>
 
@@ -57,7 +56,7 @@ const Destinations = () => {
           <img src={London} alt='destination-3' />
           <h3>London</h3>
           <p>
-          The world is full of people who love travels. i get to make friends when i travel to new places and spend quality time with them.
+          London, also known as Greater London, is one of nine regions of England and the top subdivision covering most of the city's metropolis.
           </p>
         </div>
       </div>

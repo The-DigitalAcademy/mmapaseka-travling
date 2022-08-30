@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const SignUp = () => {
   return (
     <>
+    <Header />
       <section className='showcase login'>
         <div className='showcase-overlay'>
           <form className='form-control'>
