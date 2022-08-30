@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import {Link} from 'react-router-dom'
 
 const SignUp = () => {
   return (
@@ -34,7 +35,8 @@ const SignUp = () => {
               id='password2'
               placeholder='Confirm your password'
             />
-            <button type='submit'>Create Your Account</button>
+            
+            <Link to={'/'}><button>Create Your Account</button></Link>
           </form>
         </div>
       </section>

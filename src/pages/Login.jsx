@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import {Link} from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -16,7 +17,7 @@ const Login = () => {
               required
             />
             <input type='password' name='password' id='password' />
-            <button type='submit'>Log In</button>
+            <Link to={'/'}><button>Log In</button></Link>
           </form>
         </div>
       </section>
